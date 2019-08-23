@@ -1,0 +1,29 @@
+{
+    "development": {
+        "username": "root",
+        "password": "root@123",
+        "database": "drink_prime",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "operatorsAliases": false,
+        "logging": false
+    },
+    "test": {
+        "username": "root",
+        "password": "",
+        "database": "drink_prime",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "operatorsAliases": false,
+        "logging": false
+    },
+    "production": {
+        "username": "root",
+        "password": "",
+        "database": "drink_prime",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "operatorsAliases": false,
+        "logging": false
+    }
+}
