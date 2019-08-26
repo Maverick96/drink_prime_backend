@@ -32,7 +32,7 @@ app.post('/api/v1/createLead', auth.verifyToken, create);
 app.get('/api/v1/listLeads', auth.verifyToken, listItems);
 app.post('/api/v1/leadDetails', auth.verifyToken, leadDetails);
 
-app.get('/*', function (req, res) {
+app.get('*', function (req, res) {
 
     res.sendFile(path.join(__dirname + '/dist/drink-water-app/index.html'));
 });
