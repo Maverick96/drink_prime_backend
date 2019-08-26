@@ -25,6 +25,8 @@ const listItems = require('./routes/listLead');
 const leadDetails = require('./routes/leadDetails')
 const auth = require('./auth/verify');
 
+app.use(express.static('dist/drink-water-app' || ''));
+
 app.use('/api/v1/login', login);
 app.post('/api/v1/createLead', auth.verifyToken, create);
 app.get('/api/v1/listLeads', auth.verifyToken, listItems);
