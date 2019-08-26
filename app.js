@@ -33,7 +33,7 @@ app.get('/api/v1/listLeads', auth.verifyToken, listItems);
 app.post('/api/v1/leadDetails', auth.verifyToken, leadDetails);
 
 app.get('*', function (req, res) {
-
+    console.log("SEND FILE!!");
     res.sendFile(__dirname + '/dist/drink-water-app/index.html');
 });
 
