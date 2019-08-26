@@ -1,5 +1,14 @@
 {
     "development": {
+        "username": "sql12303063",
+        "password": "fHHnl9WitW",
+        "database": "sql12303063",
+        "host": "sql12.freemysqlhosting.net",
+        "dialect": "mysql",
+        "operatorsAliases": false,
+        "logging": false
+    },
+    "test-development": {
         "username": "root",
         "password": "root@123",
         "database": "drink_prime",
