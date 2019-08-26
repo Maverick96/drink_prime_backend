@@ -34,7 +34,7 @@ app.post('/api/v1/leadDetails', auth.verifyToken, leadDetails);
 
 app.get('*', function (req, res) {
 
-    res.sendFile(path.join(__dirname + '/dist/drink-water-app/index.html'));
+    res.sendFile('./dist/drink-water-app/index.html');
 });
 
 // Error Handler
