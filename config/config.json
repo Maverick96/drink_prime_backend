@@ -18,19 +18,19 @@
         "logging": false
     },
     "test": {
-        "username": "root",
-        "password": "",
-        "database": "drink_prime",
-        "host": "127.0.0.1",
+        "username": "sql12303063",
+        "password": "fHHnl9WitW",
+        "database": "sql12303063",
+        "host": "sql12.freemysqlhosting.net",
         "dialect": "mysql",
         "operatorsAliases": false,
         "logging": false
     },
     "production": {
-        "username": "root",
-        "password": "",
-        "database": "drink_prime",
-        "host": "127.0.0.1",
+        "username": "sql12303063",
+        "password": "fHHnl9WitW",
+        "database": "sql12303063",
+        "host": "sql12.freemysqlhosting.net",
         "dialect": "mysql",
         "operatorsAliases": false,
         "logging": false
